@@ -3,7 +3,7 @@ import requests
 from RankingHandler.api_params import Type, get_string, get_rank_under
 
 
-def get_data(type: Type):
+def get_ranking_data(type: Type):
     type_str = get_string(type)
     type_lim = get_rank_under(type)
     data = {}
