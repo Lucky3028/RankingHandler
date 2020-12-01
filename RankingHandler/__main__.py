@@ -15,16 +15,16 @@ def main():
 
     print("（整地量：20名）")
     ranking_break = get_ranking_data(Type.BREAK)
-    for da in ranking_break:
-        print(da)
+    for data in ranking_break:
+        print(data)
         time.sleep(0.2)
 
     print("")
 
     print("（建築量：10名）")
     ranking_build = get_ranking_data(Type.BUILD)
-    for da in ranking_build:
-        print(da)
+    for data in ranking_build:
+        print(data)
         time.sleep(0.2)
 
     print("")
