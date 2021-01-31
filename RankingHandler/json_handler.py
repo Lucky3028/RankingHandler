@@ -9,7 +9,7 @@ def get_ranking_data(type: Type):
     data = {}
 
     try:
-        url = "https://w4.minecraftserver.jp/api/ranking"
+        url = "https://ranking-gigantic.seichi.click/api/ranking"
         params = {"type": type_str, "offset": 0, "lim": type_lim, "duration": "monthly"}
         res = requests.get(url, params=params)
         data = res.json()
